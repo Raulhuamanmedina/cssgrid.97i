@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    grid-template-rows: auto 200px;
+    gap: 1em;
+
+}
+.element {
+    background: white;
+    padding: 1em;
+}
+.element:hover {
+    border: 1px solid orange;
+    
+}
